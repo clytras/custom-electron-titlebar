@@ -1,12 +1,14 @@
 {
   "name": "@lytrax/custom-electron-titlebar",
-  "version": "3.1.8",
+  "version": "3.1.10",
   "description": "Custom Electron Titlebar is a library for electron that allows you to configure a fully customizable title bar.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "start": "tsc && tsc ./example/main && tsc ./example/renderer && electron ./example/main.js",
-    "build": "tsc"
+    "build": "tsc",
+    "deploy": "yarpm run build && npm publish --access public",
+    "deploy-dry": "yarpm run build && npm publish --access public --dry-run"
   },
   "author": "Alex Torres <alextorressk@gmail.com>",
   "license": "MIT",
@@ -33,6 +35,7 @@
   "dependencies": {},
   "devDependencies": {
     "electron": "7.1.2",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "yarpm": "^0.2.1"
   }
 }
