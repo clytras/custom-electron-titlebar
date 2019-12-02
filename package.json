@@ -1,6 +1,6 @@
 {
   "name": "pj-custom-electron-titlebar",
-  "version": "3.1.5",
+  "version": "3.1.7",
   "description": "Custom Electron Titlebar is a library for electron that allows you to configure a fully customizable title bar.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/panjiang/custom-electron-titlebar.git"
+    "url": "git+https://github.com/clytras/custom-electron-titlebar.git"
   },
   "keywords": [
     "typescript",
@@ -23,16 +23,16 @@
     "linux"
   ],
   "bugs": {
-    "url": "https://github.com/panjiang/custom-electron-titlebar/issues"
+    "url": "https://github.com/clytras/custom-electron-titlebar.git"
   },
-  "homepage": "https://github.com/panjiang/custom-electron-titlebar#readme",
+  "homepage": "https://github.com/clytras/custom-electron-titlebar.git#readme",
   "directories": {
     "example": "example",
     "lib": "lib"
   },
   "dependencies": {},
   "devDependencies": {
-    "electron": "^6.0.11",
-    "typescript": "^3.5.3"
+    "electron": "7.1.2",
+    "typescript": "^3.7.2"
   }
 }
