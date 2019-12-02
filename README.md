@@ -21,13 +21,13 @@ This project is a typescript library for electron that allows you to configure a
 ## Install
 
 ```
-npm i pj-custom-electron-titlebar
+npm i @lytrax/custom-electron-titlebar
 ```
 
 Or
 
 ```
-npm install pj-custom-electron-titlebar@latest
+npm install @lytrax/custom-electron-titlebar
 ```
 
 or use the base project [cet-quickstart](https://github.com/AlexTorresSk/cet-quickstart)
@@ -37,7 +37,7 @@ or use the base project [cet-quickstart](https://github.com/AlexTorresSk/cet-qui
 In your renderer file or in an HTML script tag add:
 
 ```js
-const customTitlebar = require('pj-custom-electron-titlebar');
+const customTitlebar = require('@lytrax/custom-electron-titlebar');
 
 new customTitlebar.Titlebar({
 	backgroundColor: customTitlebar.Color.fromHex('#444')
@@ -46,7 +46,7 @@ new customTitlebar.Titlebar({
 
 > if you are using _typescript_
 ```ts
-import { Titlebar, Color } from 'pj-custom-electron-titlebar'
+import { Titlebar, Color } from '@lytrax/custom-electron-titlebar'
 
 new Titlebar({
 	backgroundColor: Color.fromHex('#ECECEC')

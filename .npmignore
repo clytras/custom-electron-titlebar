@@ -25,6 +25,7 @@ screenshots/
 src/
 .gitignore
 .editorconfig
+.prettierrc.json
 circle.yml
 setup.sh
 Gruntfile.js
