@@ -10,7 +10,7 @@ This project is a typescript library for electron that allows you to configure a
 ### **It is a library for electron, it cannot be used on a basic website.**
 
 [![LICENSE](https://img.shields.io/github/license/AlexTorresSk/custom-electron-titlebar.svg)](https://github.com/AlexTorresSk/custom-electron-titlebar/blob/master/LICENSE)
-[![NPM Version](https://img.shields.io/npm/v/custom-electron-titlebar.svg)](https://npmjs.org/package/pj-custom-electron-titlebar)
+[![NPM Version](https://img.shields.io/npm/v/@lytrax/custom-electron-titlebar)](https://www.npmjs.com/package/@lytrax/custom-electron-titlebar)
 
 ![Preview 1](screenshots/window_1.png)
 
